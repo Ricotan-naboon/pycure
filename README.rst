@@ -12,7 +12,7 @@ Inspired by Acme::PrettyCure.
 Requirements
 ============
 
-- Python 3.3
+- Python 3.3 or higher
 
 Installation
 ============
