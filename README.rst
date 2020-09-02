@@ -2,9 +2,6 @@
 pycure
 ======
 
-.. image:: https://drone.io/github.com/drillbits/pycure/status.png
-   :target: https://drone.io/github.com/drillbits/pycure/latest
-
 All about Japanese battle heroine "Pretty Cure".
 
 Inspired by Acme::PrettyCure.
@@ -14,12 +11,16 @@ Requirements
 
 - Python 3.3 or higher
 
+- validation version 3.7.6 3.8.1 3.9.0rc1
+
 Installation
 ============
 
 ::
 
-   $ pip install pycure
+   $ git clone https://github.com/Ricotan-naboon/pycure.git && cd pycure && python3 setup.py install
+   
+If You using pip, You can not get latest Packeage.
 
 Usage
 =====
@@ -28,7 +29,7 @@ Get the most recent series.
 
 ::
 
-   $ python
+   $ python3
    >>> from pycure import Precure
    >>> p = Precure.now
    >>> p.title
